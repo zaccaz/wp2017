@@ -1,0 +1,87 @@
+body {
+	/*background-image:url("gradent_bg.png");*/
+	/*background-color: lightblue;*/
+	background-image: url("keyboard.jpg");
+	background-attachment: fixed; /*set image fixed when scroll bar s adjusted*/
+	background-size: cover; /*set image fullsceen*/
+	background-color: hsla(0,0%,100%, 0.3);
+	background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.container{
+	position: relative;
+	margin-top: 200px;
+
+}
+
+.centre{
+	left :0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	/*vertical-align: middle;*/
+
+}
+#name{
+	font-family : Arial;
+	font-size: 80px;
+	color: white;
+	margin: 0px;
+}
+
+#a1{
+	font-family :Lucida Sans Unicode;
+	font-size: 26px;
+	color: ghostwhite;
+	margin: 0px;
+}
+
+.sec_container{
+	position: relative;
+	text-align: center;
+	margin-top: 200px;
+	/*background-color:white ;*/
+	width: 100%;
+
+}
+
+#profile_pic{
+	display: block;
+	margin-top: 150px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 50%;
+	border: 10px solid #ffffff;
+	
+}
+
+#profile_pic::after{
+	background-color: #ffffff;
+}
+
+.dynamic_table{
+	background-color: #ffffff;
+}
+#second_header{
+	font-family :Arial;
+	font-size: 32px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+
+
+#second_p{
+	font-family :Arial;
+	font-size: 26px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#second_p a{
+	color: #ffffff;
+}
+
+
+
