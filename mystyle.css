@@ -1,12 +1,14 @@
 body {
 	/*background-image:url("gradent_bg.png");*/
 	/*background-color: lightblue;*/
+	/*must adjust body margin*/
 	background-image: url("keyboard.jpg");
 	background-attachment: fixed; /*set image fixed when scroll bar s adjusted*/
 	background-size: cover; /*set image fullsceen*/
 	background-color: hsla(0,0%,100%, 0.3);
 	background-blend-mode: overlay;
     background-repeat: no-repeat;
+	margin: 0px;
 }
 
 .container{
@@ -37,51 +39,185 @@ body {
 	margin: 0px;
 }
 
-.sec_container{
-	position: relative;
-	text-align: center;
-	margin-top: 200px;
-	/*background-color:white ;*/
-	width: 100%;
+.package{
 
+	position: absolute;
+	width: 100%;
+	height: 70%;
+	
+}
+
+
+
+.third_container{
+	position: absolute;
+	text-align: center;
+	margin-top: 400px;
+	background-color:white ;
+	width: 100%;
+	
+	
 }
 
 #profile_pic{
+	position: relative;
+	top: 10%;	
 	display: block;
-	margin-top: 150px;
+	z-index: 999;
+	
+	/*put centre*/
 	margin-left:auto;
 	margin-right:auto;
+	
+	/*styling*/
 	border-radius: 50%;
 	border: 10px solid #ffffff;
-	
 }
 
 #profile_pic::after{
 	background-color: #ffffff;
 }
 
-.dynamic_table{
-	background-color: #ffffff;
-}
-#second_header{
+
+.second_header{
 	font-family :Arial;
 	font-size: 32px;
 	font-weight: bold;
-	color: #ffffff;
+	color: #000000;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 
 
-#second_p{
+.second_p{
 	font-family :Arial;
 	font-size: 26px;
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
+	white-space: nowrap;
 }
 
-#second_p a{
-	color: #ffffff;
+.second_p a{
+	color: #000000;
+	white-space: nowrap;
 }
+
+#wrapper{
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	
+	/*top: 60%;*/
+	height: 100%;
+	top: -30%;
+	
+	
+	
+	
+}
+
+#container0{
+	background-color: RGBA(255,255,255,1.0);
+	background-color: #E6E6F2;
+	width :100%;
+	z-index: 1;
+	position: absolute;
+	top: 10%;
+	
+	visibility: visible;
+	height: 400px;	
+	height: 100%;
+}
+
+#container1{
+	
+	background-color: #E6E6F2;
+	width :0%;
+	z-index: 2;
+	position: absolute;
+	top: 10%;
+	height: 400px;
+	height: 100%;
+	
+	visibility: hidden;
+	
+}
+
+#container2{
+	background-color: RGBA(255,255,255,1.0);	
+	background-color: #E6E6F2;
+	width :0%;
+	position: absolute;
+	top: 10%;
+	
+	visibility: hidden;
+	height: 400px;	
+	height: 100%;
+}
+
+#cover{
+	background-color: RGBA(255,255,255,1);
+	/*width: 10%;*/
+	z-index: 100;
+	/*left: -10%;*/
+	top: 10%;
+	position: absolute;
+	height: 400px;
+	height: 100%;
+	
+	
+}
+
+#sec_cover{
+	background-color: RGBA(255,255,255,0.5);
+	
+	/*width: 10%;*/
+	z-index: 99;
+	/*left: -10%;*/
+	top: 10%;
+	position: absolute;
+	height: 400px;
+	height: 100%;
+}
+
+.emptyL{
+	float: left;
+	width: 40%;
+	height: 400px;
+}
+
+.emptyR{
+	width: 33.33%;
+	height: 400px;
+}
+
+.block{
+	/*padding-top: 5%;*/
+	position: relative;
+	top: 35%;
+	overflow:hidden;
+	height: 100%;
+	
+}
+
+#testss{
+	position:relative;
+		z-index: 99999;
+
+}	
+
+.right{
+	position: relative;
+	float: right;
+	cursor:pointer;
+	color: black;
+	font-size: 60px;
+	top: 40%;
+	right: 5%;
+	z-index: 50;
+}
+ 
 
 
 

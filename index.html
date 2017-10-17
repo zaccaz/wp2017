@@ -2,6 +2,7 @@
 <html>
 	<head>
 	<link rel ="stylesheet" type="text/css" href="mystyle.css">
+	
 	</head>
 	<body>
 		<div class ="container">
@@ -11,25 +12,62 @@
 			</div>	
 		</div>
 		
-		
-		<img src="self.jpg" id="profile_pic">
-		<div class = "sec_container">	
-			<div id = "second_header">Contact</div>
-			<div id ="second_p">
-				<p>email: wbernard.jl@gmal.com</p>
-				<p> FB: <a href="https://www.facebook.com/zac.caz.18">Zac Caz </a> </p>
-				<p> Gthub: <a href="https://github.com/zaccaz"> https://github.com/zaccaz </a></p>
-			</div>
-		</div>
-		
-		<div class = "sec_container">	
-			<div id = "second_header">Skills</div>
-			<div id ="second_p">
-				<p>Programmng Language: C, C++, java</p>
-				<p>Focus: Automation Control</p>
+		<div class="package">
+			<img src="self.jpg" id="profile_pic">
+			
+			<div id = "wrapper">
+				<div id = "container0">
+					<div class="emptyL"></div>
+					<div class ="block" >
+						<div class = "second_header">Contact</div>
+						<div class ="second_p">
+							<p>email: wbernard.jl@gmal.com</p>
+							<p> FB: <a href="https://www.facebook.com/zac.caz.18">Zac Caz </a> </p>
+							<p> Gthub: <a href="https://github.com/zaccaz"> https://github.com/zaccaz </a></p>
+						</div>
+					</div>
+					<div class="emptyR"></div>
+				</div>
 				
+				<div id = "container1">
+					<div class="emptyL"></div>
+					<div class ="block" >
+						<div class = "second_header">Hobbies</div>
+						<div class ="second_p">
+							<p>.....</p>
+							<p> ..... </p>
+							<p> .....</p>
+						</div>
+					</div>
+					<div class="emptyR"></div>
+				</div>
+				
+				<div id = "container2">
+					<div class="emptyL"></div>
+					<div class ="block" >
+						<div class = "second_header">Skills</div>
+						<div class ="second_p">
+							<p>Programmng Language: C, C++, java</p>
+							<p>Focus: Automation Control</p>
+							<p> .....</p>
+						</div>
+					</div>
+					<div class="emptyR"></div>
+					
+				</div>
+				<div id = "cover" style = "width:10%;left:-20%"></div>
+			    <div id = "sec_cover" style="width:30%;left:-30%"></div>
+				<div class="right" onclick="myMove()">&#10095;</div>
 			</div>
+			
+			<div class = "third_container">	
+				<div class = "second_header">Download My Full Resume</div>
+			</div>
+			<!--<p ><button id="testss" onclick="myMove()">Click Me</button></p> -->
 		</div>
 		
+	
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src = "myscript.js"></script><!--@put at bottom of the body to improve the display speed-->
 	</body>
 </html>
